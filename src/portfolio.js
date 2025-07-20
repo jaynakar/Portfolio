@@ -275,16 +275,16 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@jaynakar/why-react-is-the-best-a-developers-perspective-6c5c01e727bf",
+      title: "Why React is the Best: A Developer’s Perspective",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "In today’s fast-paced web development world, choosing the right framework can make or break your project. Among the countless options, React has emerged as one of the most popular and powerful tools for building modern web applications."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@jaynakar/programming-is-simple-people-arent-a5cfb28af472",
+      title: "Programming Is Simple —People Aren’t",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "A developer's honest take on debugging life, handling emotional errors, and navigating a world that doesn’t always return expected results."
     }
   ],
   display: true // Set false to hide this section, defaults to true
