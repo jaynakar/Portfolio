@@ -47,6 +47,14 @@ export default function Greeting() {
                     className="download-link-button"
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={() => {
+                      if (window.gtag) {
+                        window.gtag("event", "resume_download", {
+                          event_category: "engagement",
+                          event_label: "Resume Button Clicked",
+                        });
+                      }
+                    }}
                   >
                     <Button text="Download my resume" />
                   </a>
